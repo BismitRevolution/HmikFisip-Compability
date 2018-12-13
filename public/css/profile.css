@@ -1,0 +1,27 @@
+.profile-page {
+    font-family: 'AvenirLTStd-Book', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 165px;
+}
+
+.profile-page .nama-divisi {
+    font-size: 32px;
+    color: #0f894a;
+    font-weight: 900;
+}
+
+.profile-page .judul-teks {
+    font-size: 25px;
+    color: #0f894a;
+}
+
+.profile-page .desc {
+    position: relative;
+    font-size: 18px;
+}
+
+.profile-page .image-profile {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}

@@ -1,22 +1,20 @@
-@extends('main')
-
-@section('title', 'Admin Login')
+@extends('admin.layouts.app')
 
 @section('content')
-<div class="container" style="margin-top: 165px;">
+<div class="container">
     <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Admin Login</div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/login') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ route('admin.login') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-12 control-label">Email</label>
+                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
-                            <div class="col-md-12">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" autofocus>
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
 
                                 @if ($errors->has('email'))
                                     <span class="help-block">
@@ -27,9 +25,9 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-12 control-label">Password</label>
+                            <label for="password" class="col-md-4 control-label">Password</label>
 
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <input id="password" type="password" class="form-control" name="password">
 
                                 @if ($errors->has('password'))
@@ -43,18 +41,22 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <div class="checkbox">
-                                    <input type="checkbox" name="remember" style="padding-right: 20px;">
-                                    <label style="font-size: 0.8em;">
-                                        Remember me
+                                    <label>
+                                        <input type="checkbox" name="remember"> Remember Me
                                     </label>
                                 </div>
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-success col-md-12">
-                            Login
-                        </button>
-                        <!-- <a class="btn btn-link" href="{{ url('/admin/password/reset') }}" style="font-size: 0.6em;">Forgot password</a> -->
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-btn fa-sign-in"></i> Login
+                                </button>
+
+                                <a class="btn btn-link" href="{{ route('admin.password.reset') }}">Forgot Your Password?</a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

@@ -15,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        
+
     }
 
     /**
@@ -25,6 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('admin.home');
+        return redirect()->route('admin.home');
+        // return view('admin.home');
     }
 }

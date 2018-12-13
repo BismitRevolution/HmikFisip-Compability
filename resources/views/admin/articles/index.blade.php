@@ -27,11 +27,9 @@
 						<td>{{ $article->category }}</td>
 						<td>{{ substr($article->body, 0, 50) }}{{ strlen($article->body) > 100 ? '....' : '' }}</td>
 						<td>
-							@foreach($article->media as $pic)
-							@if($loop->first)
-								<img src="{{ '/storage/'.$pic->path }}" alt="" height="200" width="200">
+							@if (count($article->media) > 0)
+							<img src="{{ '/storage/'.$article->media[0]->path }}" alt="" height="200" width="200">
 							@endif
-							@endforeach
 						</td>
 						<td>{{ $article->created_at }}</td>
 						<td>{{ $article->updated_at }}</td>
@@ -40,7 +38,7 @@
 								<button type="submit" class="btn btn-primary">Edit</button>
 							</form>
 							<form action="{{ route('admin.articles.destroy', ['id' => $article->article_id]) }}" method="POST">
-								<input disabled type="hidden" name="_method" value="DELETE" />
+								<input type="hidden" name="_method" value="DELETE" />
 								<button type="submit" class="btn btn-danger">Delete</button>
 								{!! csrf_field() !!}
 							</form>

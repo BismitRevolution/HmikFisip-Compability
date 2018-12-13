@@ -318,7 +318,9 @@
                     @foreach($articles as $article)
                     <div class="item">
                         <div class="pad10" id="article-01">
-                            <img src="{{ '/laravel/storage/app/public/'.$article->media[0]->path }}" class="image-profile">
+                            @if (count($article->media) > 0)
+                            <img src="{{ '/storage/'.$article->media[0]->path }}" class="image-profile">
+                            @endif
                             <div class="ex-desc">
                                 <div class="desc">
                                     <span class="filter-event">

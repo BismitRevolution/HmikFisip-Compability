@@ -26,6 +26,7 @@ class ArticleController extends Controller
                                 ->where('media.article_id', '=', $article->article_id)
                                 ->get();
         }
+        // dd($articles);
         return view('admin.articles.index')->with(['articles'=> $articles]);
     }
 
@@ -47,10 +48,10 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'title' => 'required|max:255',
-            'body' => 'required',
-        ]);
+        // $this->validate([
+        //     'title' => 'required|max:255',
+        //     'body' => 'required',
+        // ]);
 
        $article = new Article;
 
@@ -63,8 +64,8 @@ class ArticleController extends Controller
        // dd($files);
        if($request->hasFile('media')) {
             foreach ($files as $file) {
-                $path = $file->store(
-                    '/public/'.$article->article_id
+                $path = $file->move(
+                    'storage/'.$article->article_id, $file->getClientOriginalName()
                 );
                 $media = new Media;
                 $media->path = substr($path, 7);
@@ -129,10 +130,10 @@ class ArticleController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $request->validate([
-            'title' => 'required|max:255',
-            'body' => 'required',
-        ]);
+        // $this->validate([
+        //     'title' => 'required|max:255',
+        //     'body' => 'required',
+        // ]);
 
         $article = Article::find($id);
 
@@ -140,8 +141,8 @@ class ArticleController extends Controller
         $article->body = $request->input('body');
         $article->save();
 
-        return redirect()->route('admin.articles.show', $article->article_id);
-
+        // return redirect()->route('admin.articles.show', $article->article_id);
+        return redirect()->route('admin.articles.index');
     }
 
     /**

@@ -11,12 +11,9 @@
                 </div>
 				<br>
                 <div class="foto-divisi">
-                    @foreach($media as $pic)
-                    @if($loop->first)
-                    <!-- <div class="image-profile" style="background-image: url({{ '/storage/'.$pic->path }})"></div> -->
-                    <img src="{{ '/laravel/storage/app/public/'.$pic->path }}" class="image-profile">
-                    @endif
-                    @endforeach
+					@if (count($media) > 0)
+                    <img src="{{ '/storage/'.$media[0]->path }}" class="image-profile">
+					@endif
                 </div>
 				<br>
                 <div class="judul-teks">Dipost</div>

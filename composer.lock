@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "content-hash": "5dc1c0583fc7bb254c485a99ba0751b1",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -915,6 +915,42 @@
                 "shell"
             ],
             "time": "2016-03-09T05:03:14+00:00"
+        },
+        {
+            "name": "sarav/admin-auth",
+            "version": "0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sarav-S/Admin-Authentication.git",
+                "reference": "2df9f6de2fc59b8103f605ff10d10b0c4a4a0eeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sarav-S/Admin-Authentication/zipball/2df9f6de2fc59b8103f605ff10d10b0c4a4a0eeb",
+                "reference": "2df9f6de2fc59b8103f605ff10d10b0c4a4a0eeb",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sarav\\": "src/"
+                },
+                "files": [
+                    "src/AdminAuth/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saravanan Sampath kumar",
+                    "email": "me@sarav.co"
+                }
+            ],
+            "description": "A simple package to setup admin authentication system",
+            "time": "2016-12-03T14:19:08+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

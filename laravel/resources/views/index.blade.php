@@ -250,13 +250,15 @@
                     </div>
                 </div>
             </a>
-            <div class="col-12 col-md-4 row text-center" style="display: block;">
-                <img class="col-12" src="{{ asset('img/portal-keilmuan.png') }}" alt="">
-                <div class="col-12">
-                    <h5 class="title">PORTAL KEILMUAN</h5>
-                    <p class="paragraph">Portal Keilmuan menyediakan berbagai macam bahan bacaan seperti materi UTS, UAS, hingga bahan bacaan sastra.</p>
+            <a class="col-12 col-md-4 white" href="https://drive.google.com/drive/u/1/folders/0B3auWJpCO4luX3UtRW5FeTkwTXM" style="text-decoration: none;" target="_blank">
+                <div class="row text-center" style="display: block;">
+                    <img class="col-12" src="{{ asset('img/portal-keilmuan.png') }}" alt="">
+                    <div class="col-12">
+                        <h5 class="title">PORTAL KEILMUAN</h5>
+                        <p class="paragraph">Portal Keilmuan menyediakan berbagai macam bahan bacaan seperti materi UTS, UAS, hingga bahan bacaan sastra.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
             <a class="col-12 col-md-4 white" href="https://docs.google.com/forms/d/e/1FAIpQLSdKL67spuTM8EK-v9I3bwVSkbq0VubuX5RZQYcWLo8IHjY1RA/viewform" style="text-decoration:none;">
                 <div class="row text-center" style="display: block;">
                     <img class="col-12" src="{{ asset('img/ruang-aspirasi.png') }}" alt="">

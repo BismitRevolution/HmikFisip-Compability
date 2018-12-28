@@ -1,7 +1,7 @@
 <div class="footer text-center">
 </div>
 
-<div class="kontak-kami">
+<div class="kontak-kami" id="kontak-kami">
     <div class="row">
         <div class="col-sm-12 col-md-6">
             <h1 class="title">KONTAK KAMI</h1>

@@ -1,0 +1,13 @@
+hmik.fisip.ui.ac.id: 
+
+SSH Access
+hmikfisip_ui 
+BpgrWE_pX69BpgrWE_pX69
+
+Database MySQL
+DB_name: hmik_fisip_ui_ac_id 
+DB_user: hmik_fisip 
+DB pass: aCDBpvr5CuKY0Gqr
+
+https://dbadmin.ui.ac.id/phpmyadmin/
+'DB @ LUTUNGKASARUNG'

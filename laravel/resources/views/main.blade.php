@@ -79,6 +79,9 @@
         <!-- FontAwesome -->
         <script defer src="{{ asset('js/vendor/fontawesome-all.min.js') }}"></script>
 
+        <!-- ScrollTo -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/_header.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/_footer.js') }}"></script>

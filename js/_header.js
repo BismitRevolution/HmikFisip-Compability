@@ -33,6 +33,19 @@ $(window).scroll(function() {
   }
 });
 
-/*$( document ).ready(function() {
-    console.log( "ready!" );
-});*/
+$( document ).ready(function() {
+    console.log("ready!");
+
+    var home = $("#nav-home");
+    home.addEventListener('click', function() {        
+        alert('Hello world');
+    }, false);
+
+    var about = $("#nav-about");
+    var profile = $("#nav-profile");
+    var corner = $("#nav-corner");
+    var creation = $("#nav-creation");
+    var article = $("#nav-article");
+    var events = $("#nav-event");
+    var contact = $("#nav-contact");
+});

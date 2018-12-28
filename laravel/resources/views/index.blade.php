@@ -241,13 +241,15 @@
 <div id="pojok-mahasiswa" class="bg-green-dark white">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4 row text-center" style="display: block;">
-                <img class="col-12" src="{{ asset('img/komunikasi-101.png') }}" alt="">
-                <div class="col-12">
-                    <h5 class="title">KOMUNIKASI 101</h5>
-                    <p class="paragraph">KOM 101 hadir untuk membantu kalian dengan menyediakan informasi-informasi seputar komunikasi, perkuliahan, dan lain-lain.</p>
+            <a class="col-12 col-md-4 white" href="https://drive.google.com/file/d/1DtCVRmpOg0mHpSQm4sH3FelvY4NVCZYQ/view" style="text-decoration:none;" target="_blank">
+                <div class="row text-center" style="display: block;">
+                    <img class="col-12" src="{{ asset('img/komunikasi-101.png') }}" alt="">
+                    <div class="col-12">
+                        <h5 class="title">KOMUNIKASI 101</h5>
+                        <p class="paragraph">KOM 101 hadir untuk membantu kalian dengan menyediakan informasi-informasi seputar komunikasi, perkuliahan, dan lain-lain.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
             <div class="col-12 col-md-4 row text-center" style="display: block;">
                 <img class="col-12" src="{{ asset('img/portal-keilmuan.png') }}" alt="">
                 <div class="col-12">
@@ -255,13 +257,15 @@
                     <p class="paragraph">Portal Keilmuan menyediakan berbagai macam bahan bacaan seperti materi UTS, UAS, hingga bahan bacaan sastra.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-4 row text-center" style="display: block;">
-                <img class="col-12" src="{{ asset('img/ruang-aspirasi.png') }}" alt="">
-                <div class="col-12">
-                    <h5 class="title">RUANG ASPIRASI</h5>
-                    <p class="paragraph">Ayo, sampaikan aspirasimu melalui Ruang Aspirasi!</p>
+            <a class="col-12 col-md-4 white" href="https://docs.google.com/forms/d/e/1FAIpQLSdKL67spuTM8EK-v9I3bwVSkbq0VubuX5RZQYcWLo8IHjY1RA/viewform" style="text-decoration:none;">
+                <div class="row text-center" style="display: block;">
+                    <img class="col-12" src="{{ asset('img/ruang-aspirasi.png') }}" alt="">
+                    <div class="col-12">
+                        <h5 class="title">RUANG ASPIRASI</h5>
+                        <p class="paragraph">Ayo, sampaikan aspirasimu melalui Ruang Aspirasi!</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </div>

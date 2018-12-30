@@ -14,6 +14,11 @@ class ProfileController extends Controller
     * @return \Illuminate\Http\Response
     */
 
+    public function show($id) {
+        $division = Profile::find($id);
+        return view('profiles.show', compact('division'));
+    }
+
     public function indexPI()
     {
         $bidang = Profile::find(1);

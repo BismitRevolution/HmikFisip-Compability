@@ -17,9 +17,10 @@ class CreateProfilesTable extends Migration
             $table->increments('id');
             $table->string('divisi');
             $table->string('url_foto');
-            $table->string('visi');
-            $table->string('misi');
-            $table->longText('program');
+            $table->string('visi')->default(null);
+            $table->string('misi')->default(null);
+            $table->longText('program')->default(null);
+            $table->longText('struktur')->default(null);
         });
     }
 

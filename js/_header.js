@@ -37,7 +37,7 @@ $( document ).ready(function() {
     console.log("ready!");
 
     var home = $("#nav-home");
-    home.addEventListener('click', function() {        
+    home.addEventListener('click', function() {
         alert('Hello world');
     }, false);
 

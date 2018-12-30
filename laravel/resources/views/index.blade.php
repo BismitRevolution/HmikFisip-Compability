@@ -14,7 +14,7 @@
             <img class="row" src="{{ asset('img/logo-word.png') }}" alt="HMIK FISIP UI" id="header-logo-word">
         </a>
     </div>
-    <img src="{{ asset('img/header-photo.jpg') }}" alt="Foto HMIK FISIP UI" class="row col-12" id="header-photo">
+    <img src="{{ asset('img/division/cover.JPG') }}" alt="Foto HMIK FISIP UI" class="row col-12" id="header-photo">
 </div>
 
 
@@ -120,8 +120,8 @@
             <div class="row">
                 <div class="div-img col-md-4">
                     <div class="divisi" id="divisi-01">
-                        <div class="image-profile" style="background-image: url({{ asset('img/BPH.jpg') }});"></div>
-                        <a href="{{ route('profile.show.bph') }}">
+                        <div class="image-profile" style="background-image: url({{ asset('img/division/01.JPG') }});"></div>
+                        <a href="{{ route('profile.show', 1) }}">
                             <div class="ex-desc">
                                 <div class="desc">
                                     <span class="jenis-divisi">
@@ -137,8 +137,8 @@
                 </div>
                 <div class="div-img col-md-4">
                     <div class="divisi" id="divisi-02">
-                        <div class="image-profile" style="background-image: url({{ asset('img/Adkesma.jpg') }});"></div>
-                        <a href="{{ route('profile.show.adkesma') }}">
+                        <div class="image-profile" style="background-image: url({{ asset('img/division/02.JPG') }});"></div>
+                        <a href="{{ route('profile.show', 2) }}">
                             <div class="ex-desc">
                                 <div class="desc">
                                     <span class="jenis-divisi">
@@ -154,8 +154,8 @@
                 </div>
                 <div class="div-img col-md-4">
                     <div class="divisi" id="divisi-03">
-                        <div class="image-profile" style="background-image: url({{ asset('img/Humas.jpg') }});"></div>
-                        <a href="{{ route('profile.show.humas') }}">
+                        <div class="image-profile" style="background-image: url({{ asset('img/division/04.JPG') }});"></div>
+                        <a href="{{ route('profile.show', 4) }}">
                             <div class="ex-desc">
                                 <div class="desc">
                                     <span class="jenis-divisi">
@@ -179,8 +179,8 @@
             <div class="row">
                 <div class="div-img col-md-4 text-center">
                     <div class="divisi" id="divisi-04">
-                        <div class="image-profile" style="background-image: url({{ asset('img/Depor.jpg') }});"></div>
-                        <a href="{{ route('profile.show.depor') }}">
+                        <div class="image-profile" style="background-image: url({{ asset('img/division/05.JPG') }});"></div>
+                        <a href="{{ route('profile.show', 5) }}">
                             <div class="ex-desc">
                                 <div class="desc">
                                     <span class="jenis-divisi">
@@ -196,8 +196,8 @@
                 </div>
                 <div class="div-img col-md-4 text-center">
                     <div class="divisi" id="divisi-05">
-                        <div class="image-profile" style="background-image: url({{ asset('img/Psdm.jpg') }});"></div>
-                        <a href="{{ route('profile.show.psdm') }}">
+                        <div class="image-profile" style="background-image: url({{ asset('img/division/08.JPG') }});"></div>
+                        <a href="{{ route('profile.show', 8) }}">
                             <div class="ex-desc">
                                 <div class="desc">
                                     <span class="jenis-divisi">
@@ -213,8 +213,8 @@
                 </div>
                 <div class="div-img col-md-4 text-center">
                     <div class="divisi" id="divisi-06">
-                        <div class="image-profile" style="background-image: url({{ asset('img/Keuangan.jpg') }});"></div>
-                        <a href="{{ route('profile.show.keuangan') }}">
+                        <div class="image-profile" style="background-image: url({{ asset('img/division/09.JPG') }});"></div>
+                        <a href="{{ route('profile.show', 9) }}">
                             <div class="ex-desc">
                                 <div class="desc">
                                     <span class="jenis-divisi">

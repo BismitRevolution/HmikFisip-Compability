@@ -30,34 +30,34 @@
                     </div>
                 </li> -->
                 <li class="nav-item dropdown">
-                <a id="nav-profile" href="#profil" class="nav-link" id="dropdownProfil" aria-haspopup="true" aria-expanded="false">
-                    PROFIL
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownProfil">
-                    <a class="dropdown-item" href="{{ route('profile.show.bph') }}">Pengurus Inti</a>
-                    <a class="dropdown-item dropdown">
-                        <a class="dropdown-item dropdown-toggle" id="dropdownAdvokasiSosial" data-toggle="dropdown" data-target=".navbar-collapse.show" aria-haspopup="true" aria-expanded="false">
-                            Bidang Advokasi dan Sosial
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownAdvokasiSosial">
-                            <a class="dropdown-item" href="{{ route('profile.show.adkesma') }}">Departemen Advokasi dan Kesejahteraan Mahasiswa</a>
-                            <a class="dropdown-item" href="{{ route('profile.show.sosmas') }}">Departemen Sosial Masyarakat</a>
-                        </div>
+                    <a id="nav-profile" class="nav-link dropdown-toggle" id="dropdownProfil" data-toggle="dropdown" data-target=".navbar-collapse.show" aria-haspopup="true" aria-expanded="false">
+                        PROFIL
                     </a>
-                    <a class="dropdown-item" href="{{ route('profile.show.humas') }}">Bidang Humas</a>
-                    <a class="dropdown-item dropdown">
-                        <a class="dropdown-item dropdown-toggle" id="dropdownMinBak" data-toggle="dropdown" data-target=".navbar-collapse.show" aria-haspopup="true" aria-expanded="false">
-                            Bidang Minat dan Bakat
+                    <div class="dropdown-menu" aria-labelledby="dropdownProfil">
+                        <a class="dropdown-item" href="{{ route('profile.show', 1) }}">Pengurus Inti</a>
+                        <a class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" id="dropdownAdvokasiSosial" data-toggle="dropdown" data-target=".navbar-collapse.show" aria-haspopup="true" aria-expanded="false">
+                                Bidang Advokasi dan Sosial
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownAdvokasiSosial">
+                                <a class="dropdown-item" href="{{ route('profile.show', 2) }}">Departemen Advokasi dan Kesejahteraan Mahasiswa</a>
+                                <a class="dropdown-item" href="{{ route('profile.show', 3) }}">Departemen Sosial Masyarakat</a>
+                            </div>
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMinBak">
-                            <a class="dropdown-item" href="{{ route('profile.show.keilmuan') }}">Departemen Keilmuan</a>
-                            <a class="dropdown-item" href="{{ route('profile.show.depor') }}">Departemen Olahraga</a>
-                            <a class="dropdown-item" href="{{ route('profile.show.senbud') }}">Departemen Seni dan Budaya</a>
-                        </div>
-                    </a>
-                    <a class="dropdown-item" href="{{ route('profile.show.psdm') }}">Biro Pengembangan Sumber Daya Manusia</a>
-                    <a class="dropdown-item" href="{{ route('profile.show.keuangan') }}">Biro Keuangan</a>
-                </div>
+                        <a class="dropdown-item" href="{{ route('profile.show', 4) }}">Bidang Humas</a>
+                        <a class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" id="dropdownMinBak" data-toggle="dropdown" data-target=".navbar-collapse.show" aria-haspopup="true" aria-expanded="false">
+                                Bidang Minat dan Bakat
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMinBak">
+                                <a class="dropdown-item" href="{{ route('profile.show', 5) }}">Departemen Keilmuan</a>
+                                <a class="dropdown-item" href="{{ route('profile.show', 6) }}">Departemen Olahraga</a>
+                                <a class="dropdown-item" href="{{ route('profile.show', 7) }}">Departemen Seni dan Budaya</a>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="{{ route('profile.show', 8) }}">Biro Pengembangan Sumber Daya Manusia</a>
+                        <a class="dropdown-item" href="{{ route('profile.show', 9) }}">Biro Keuangan</a>
+                    </div>
                 </li>
                 <li class="nav-item"><a id="nav-corner" class="nav-link" href="#pojok-mahasiswa">POJOK MAHASISWA</a></li>
                 <li class="nav-item"><a id="nav-creation" class="nav-link" href="#RE">RUANG ESTETIKA</a></li>

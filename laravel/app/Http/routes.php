@@ -32,6 +32,7 @@ Route::get('/article/{id}', 'PageController@showarticle')->name('article.show');
 Route::get('/articles/{category}', 'PageController@showcategory')->name('article.category');
 
 Route::group(['prefix' => 'profile', 'as' => 'profile.'], function () {
+    Route::get('/division/{id}', 'ProfileController@show')->name('show');
     Route::get('/bph', 'ProfileController@indexPI')->name('show.bph');
     Route::get('/adkesma', 'ProfileController@indexAdkesma')->name('show.adkesma');
     Route::get('/sosmas', 'ProfileController@indexSosmas')->name('show.sosmas');

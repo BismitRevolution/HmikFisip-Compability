@@ -250,7 +250,7 @@
                     </div>
                 </div>
             </a>
-            <a class="col-12 col-md-4 white" href="https://drive.google.com/drive/u/1/folders/0B3auWJpCO4luX3UtRW5FeTkwTXM" style="text-decoration: none;" target="_blank">
+            <a class="col-12 col-md-4 white" href="#" style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#portalModal">
                 <div class="row text-center" style="display: block;">
                     <img class="col-12" src="{{ asset('img/portal-keilmuan.png') }}" alt="">
                     <div class="col-12">
@@ -259,6 +259,27 @@
                     </div>
                 </div>
             </a>
+            <div class="modal fade" id="portalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="https://drive.google.com/drive/u/1/folders/0B3auWJpCO4luX3UtRW5FeTkwTXM" class="btn bg-green-dark white" target="_blank">Ganjil</a>
+                            <a href="https://drive.google.com/drive/u/2/mobile/folders/0B3auWJpCO4lua3JWMWVXM2FBOFk?sort=13&direction=a" class="btn bg-green-dark white" target="_blank">Genap</a>
+                            <a href="https://drive.google.com/drive/u/2/mobile/folders/0B3auWJpCO4luQmRfTDUwNW1vSWM?sort=13&direction=a" class="btn bg-green-dark white" target="_blank">Sastra</a>
+                            <a href="https://drive.google.com/drive/u/2/mobile/folders/0B3auWJpCO4luSllMSXMyaHBQZzg?sort=13&direction=a" class="btn bg-green-dark white" target="_blank">UTS 2017</a>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn bg-green-light white" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <a class="col-12 col-md-4 white" href="https://docs.google.com/forms/d/e/1FAIpQLSdKL67spuTM8EK-v9I3bwVSkbq0VubuX5RZQYcWLo8IHjY1RA/viewform" style="text-decoration:none;">
                 <div class="row text-center" style="display: block;">
                     <img class="col-12" src="{{ asset('img/ruang-aspirasi.png') }}" alt="">

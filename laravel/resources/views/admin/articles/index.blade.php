@@ -7,7 +7,7 @@
 		List of Articles
 	</div>
 	<div class="card-body">
-		<div class="table-responsive">
+		<div class="table-responsive" style="display: block; max-height: 600px; overflow-y: auto; -ms-overflow-style: -ms-autohiding-scrollbar;">
 			<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 				<thead>
 					<tr>

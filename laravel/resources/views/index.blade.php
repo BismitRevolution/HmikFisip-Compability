@@ -128,7 +128,7 @@
                                         <b>PENGURUS INTI</b><br>
                                     </span>
                                     <span class="desc-divisi">
-                                        <i>"Mewujudkan organisasi yang progresif dan suportif terhadap publik HMIK UI 2018"</i>
+                                        <i>"HMIK UI memiliki visi bersama dan bermanfaat untuk seluruh elemen Komunikasi UI"</i>
                                     </span>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                                         <b>BIDANG ADVOKASI DAN SOSIAL</b><br>
                                     </span>
                                     <span class="desc-divisi">
-                                        <i>"Mewujudkan advokasi sosial yang progresif dan suportif terhadap publik HMIK UI 2018"</i>
+                                        <i>"Menjadikan Adkesma yang bersahabat secara dekat dan proaktif"</i>
                                     </span>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@
                                         <b>BIDANG HUMAS</b><br>
                                     </span>
                                     <span class="desc-divisi">
-                                        <i>"Mewujudkan humas yang progresif dan suportif terhadap publik HMIK UI 2018"</i>
+                                        <i>"Mewujudkan Humas yang progresif serta suportif terhadap publik HMIK UI 2018"</i>
                                     </span>
                                 </div>
                             </div>
@@ -187,7 +187,7 @@
                                         <b>BIDANG MINAT DAN BAKAT</b><br>
                                     </span>
                                     <span class="desc-divisi">
-                                        <i>"Mewujudkan minat dan bakat yang progresif dan suportif terhadap publik HMIK UI 2018"</i>
+                                        <i>"Mewujudkan Departemen Keilmuan HMIK UI yang harmonis, terbuka, dan berkesinambungan"</i>
                                     </span>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
                                         <b>BIRO PSDM</b><br>
                                     </span>
                                     <span class="desc-divisi">
-                                        <i>"Mewujudkan psdm yang progresif dan suportif terhadap publik HMIK UI 2018"</i>
+                                        <i>"Menjadi Biro PSDM yang membangun sinergi internal HMIK UI 2018 dan meningkatkan kualitas sumber dayanya secara menyeluruh"</i>
                                     </span>
                                 </div>
                             </div>
@@ -221,7 +221,7 @@
                                         <b>BIRO KEUANGAN</b><br>
                                     </span>
                                     <span class="desc-divisi">
-                                        <i>"Mewujudkan keuangan yang progresif dan suportif terhadap publik HMIK UI 2018"</i>
+                                        <i>"Menjadi Biro Keuangan yang mementingkan profesionalitas, mengedepankan inovasi, dan menjunjung kedekatan antaranggota"</i>
                                     </span>
                                 </div>
                             </div>
@@ -280,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <a class="col-12 col-md-4 white" href="https://docs.google.com/forms/d/e/1FAIpQLSdKL67spuTM8EK-v9I3bwVSkbq0VubuX5RZQYcWLo8IHjY1RA/viewform" style="text-decoration:none;">
+            <a class="col-12 col-md-4 white" href="https://docs.google.com/forms/d/e/1FAIpQLSdKL67spuTM8EK-v9I3bwVSkbq0VubuX5RZQYcWLo8IHjY1RA/viewform" style="text-decoration:none;" target="_blank">
                 <div class="row text-center" style="display: block;">
                     <img class="col-12" src="{{ asset('img/ruang-aspirasi.png') }}" alt="">
                     <div class="col-12">
@@ -299,28 +299,28 @@
     </div>
     <div class="row">
         <div class="col-6 col-sm-3">
-            <a href="{{ route('article.category', 'literatur') }}" target="_blank" style="width: 100%;">
+            <a href="{{ route('article.category', 'literatur') }}" style="width: 100%;">
                 <img src="{{ asset('img/kubus-literatur.png') }}" style="max-width: 100%; max-height: 100%;"
                 onmouseover="this.src='{{ asset('img/kubus-literatur-clicked.png') }}'"
                 onmouseout="this.src='{{ asset('img/kubus-literatur.png') }}'">
             </a>
         </div>
         <div class="col-6 col-sm-3">
-            <a href="{{ route('article.category', 'visual') }}" target="_blank" style="width: 100%;">
+            <a href="{{ route('article.category', 'visual') }}" style="width: 100%;">
                 <img src="{{ asset('img/kubus-visual.png') }}" style="max-width: 100%; max-height: 100%;"
                 onmouseover="this.src='{{ asset('img/kubus-visual-clicked.png') }}'"
                 onmouseout="this.src='{{ asset('img/kubus-visual.png') }}'">
             </a>
         </div>
         <div class="col-6 col-sm-3">
-            <a href="{{ route('article.category', 'video') }}" target="_blank" style="width: 100%;">
+            <a href="{{ route('article.category', 'video') }}" style="width: 100%;">
                 <img src="{{ asset('img/kubus-video.png') }}" style="max-width: 100%; max-height: 100%;"
                 onmouseover="this.src='{{ asset('img/kubus-video-clicked.png') }}'"
                 onmouseout="this.src='{{ asset('img/kubus-video.png') }}'">
             </a>
         </div>
         <div class="col-6 col-sm-3">
-            <a href="{{ route('article.category', 'musik') }}" target="_blank" style="width: 100%;">
+            <a href="{{ route('article.category', 'musik') }}" style="width: 100%;">
                 <img src="{{ asset('img/kubus-musik.png') }}" style="max-width: 100%; max-height: 100%;"
                 onmouseover="this.src='{{ asset('img/kubus-musik-clicked.png') }}'"
                 onmouseout="this.src='{{ asset('img/kubus-musik.png') }}'">

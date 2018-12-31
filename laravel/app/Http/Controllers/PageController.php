@@ -8,7 +8,10 @@ use Illuminate\Support\Facades\DB;
 class PageController extends Controller
 {
     public function index() {
-        $articles = DB::table('articles')->get();
+        $articles = DB::table('articles')
+        ->orderBy('updated_at', 'desc')
+        ->limit(5)
+        ->get();
         foreach($articles as $article){
             $article->media = DB::table('media')
                                 ->where('media.article_id', '=', $article->article_id)

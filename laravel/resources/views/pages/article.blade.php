@@ -24,8 +24,8 @@
 				<br>
                 <div class="judul-teks"></div>
 				<br>
-                <div class="desc">
-                    {{ substr($article->body, 0, 50) }}{{ strlen($article->body) > 100 ? '....' : '' }}<br><br>
+                <div class="desc" style="text-align: justify;">
+                    {!! nl2br(e($article->body)) !!}<br><br>
                 </div>
             </div>
         </div>

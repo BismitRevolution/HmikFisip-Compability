@@ -19,6 +19,7 @@ class ArticleController extends Controller
     {
         $articles = DB::table('articles')
                     // ->where('articles.category', '=', 'article')
+                    ->orderBy('updated_at', 'desc')
                     ->get();
 
         foreach($articles as $article){
